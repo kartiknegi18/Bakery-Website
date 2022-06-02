@@ -1,0 +1,197 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+}
+.container-fluid{
+    padding: 3% 15%;
+    margin-bottom: 7%;
+}
+
+#title{
+    background-color: #EF9F9F;
+}
+
+
+h1{
+    font-family: 'Bubblegum Sans', cursive, black;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2{
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1.15;
+}
+
+h3{
+    font-family: 'Boogaloo', cursive;
+    font-weight: bolder;
+    font-size: 2.25rem;
+}
+
+h4{
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+
+p{
+    color: #8F8F8F;
+}
+
+/*Media Query */
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        width: 20%;
+    }
+}
+
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0rem 0rem 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Cookie', cursive;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.nav-item{
+    padding: 0 14px;
+}
+
+.nav-link{
+    font-family: "Fira Sans", sans-serif, light;
+    font-size: 1.2rem;
+}
+
+
+/* Buttons */
+
+.download-button{
+    margin: 3% 3% 3% 0%  ;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 75%;
+    transform: rotate(5deg);
+    margin-left: 20%;
+}
+
+/* Feature-Section */
+
+#features{
+    padding: 5% 16%;
+    background-color: white;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #D7A86E;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #A64B2A;
+}
+
+
+/* Our-Story */
+
+#our-story{
+    background-color: #F4BFBF;
+    text-align: center;
+    
+}
+
+.our-story-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2% 0 0 1%;
+}
+
+.carousel-item{
+    padding: 5% 16%;
+}
+
+.carousel-para{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* Press */
+
+#press{
+    background-color: #F4BFBF;
+    text-align: center;
+}
+
+.press-image{
+    width: 5%;
+    border-radius: 100%;
+    margin: 10px 25px 25px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 2.5% 2.5%;
+}
+
+.pricing-image{
+    width: 30%;
+    padding: 5%;
+}
+
+/*  Call to Action  */
+
+#cta{
+    background-color: #EF9F9F;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icon{
+    margin: 1.25%;
+}
+
+.footer-icon:hover{
+    color: black;
+}
